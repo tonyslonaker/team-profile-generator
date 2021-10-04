@@ -6,7 +6,7 @@ test("set office number via const", () => {
   expect(e.officeNumber).toBe(testValue);
 });
 
-test("getRole() should return \"manager\"", () => {
+test("getRole() and return \"manager\"", () => {
   const testValue = "manager";
   const e = new manager("Foo", 1, "", 100);
   expect(e.getRole()).toBe(testValue);
