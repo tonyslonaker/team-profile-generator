@@ -6,7 +6,7 @@ test("const", () => {
   expect(e.gitHub).toBe(testValue);
 });
 
-test("getRole() should return \"intern\"", () => {
+test("getRole() and return \"intern\"", () => {
   const testValue = "intern";
   const e = new intern("Foo", 1, "email", "gitHub");
   expect(e.getRole()).toBe(testValue);
